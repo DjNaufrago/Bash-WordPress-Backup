@@ -41,7 +41,7 @@ This script will be executed once every Sunday at 00:00. You can replace it with
   Delete entire directory web: `rm -rf /var/www/html/*/`  
   Enter the database environment: `sudo mysql`  
   List the databases to verify that they exist: `SHOW DATABASES;`  
-  Delete the database: `DROP DATABASE base_de_datos;`  
+  Delete the database: `DROP DATABASE database_name;`  
   Exit the database environment: `EXIT`
 
 ### Download and Run the Script
