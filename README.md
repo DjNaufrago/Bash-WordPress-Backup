@@ -1,15 +1,15 @@
-# Bash-WordPress-Backup
+# Bash WordPress Backup / Restore
 Backup script to WordPress and database.
 Optional, make regular backups.
 
-## INSTRUCTIONS
+## INSTRUCTIONS FOR BACKUP
 1. Download the wpbackup.sh script to the home directory:  
 `wget https://raw.githubusercontent.com/DjNaufrago/Bash-WordPress-Backup/main/wpbackup.sh`
 2. Edit the paths and directory names if necessary.
 3. Create the backup directory:  
 `mkdir backups`
 4. Run the script:  
-`bash ./wpbackup`
+`bash ./wpbackup.sh`
 
 ## CREATE SCHEDULED TASK TO PERFORM BACKUPS.
 1. Make the script executable:  
@@ -31,3 +31,10 @@ This script will be executed once every Sunday at 00:00. You can replace it with
 **@monthly** runs the script every month at midnight on the first day of the month.  
 **@yearly** runs the script every year at midnight on the first day of January.  
 **@reboot** runs the script only at system startup.
+
+## INSTRUCTIONS FOR RESTORE
+1. Download the wprestore.sh script to the home directory:
+`wget https://raw.githubusercontent.com/DjNaufrago/Bash-WordPress-Backup/main/wprestore.sh`
+2. Edit the paths and directory names if necessary.
+3. 4. Run the script:  
+`bash ./wprestore.sh`
