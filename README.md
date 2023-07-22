@@ -36,5 +36,5 @@ This script will be executed once every Sunday at 00:00. You can replace it with
 1. Download the wprestore.sh script to the home directory:
 `wget https://raw.githubusercontent.com/DjNaufrago/Bash-WordPress-Backup/main/wprestore.sh`
 2. Edit the paths and directory names if necessary.
-3. 4. Run the script:  
+3. Run the script:  
 `bash ./wprestore.sh`
