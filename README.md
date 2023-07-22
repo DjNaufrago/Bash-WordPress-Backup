@@ -19,7 +19,7 @@ Optional, make regular backups.
 3. Add the scheduled task:  
 `crontab -e`
 4. Write the recurrence of the task and the path of the script:  
-`@weekly /usr/local/bin/wpbackup'
+`@weekly /usr/local/bin/wpbackup`
 5. Save with Ctrl+o and exit with Ctrl+x.
 6. Optionally, the scheduled task can be reviewed with the following command:  
 `crontab -l`
