@@ -37,12 +37,7 @@ This script will be executed once every Sunday at 00:00. You can replace it with
 ### Requirements
 - If you are going to restore from an installation from scratch, install LAMP and WordPress following the instructions described [here](https://github.com/DjNaufrago/LAMP-Wordpress-installer/tree/main).
 - Have in a directory, a copy of your backups generated with the previous script.
-- If from the same installation, you want to apply the backup restoration, you must delete the contents of the web directory and the database:  
-  Delete entire directory web: `rm -rf /var/www/html/*/`  
-  Enter the database environment: `sudo mysql`  
-  List the databases to verify that they exist: `SHOW DATABASES;`  
-  Delete the database: `DROP DATABASE database_name;`  
-  Exit the database environment: `EXIT`
+- **Note that both the web directory and the database will be deleted. Any changes after the backup will be lost.**
 
 ### Download and Run the Script
 1. Download the wprestore.sh script to the home directory:  
