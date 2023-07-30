@@ -8,7 +8,7 @@ _BACKUPS="/home/ubuntu/backups"
 
 # Set date and names for files.
 _NOW=$(date +"%m_%d_%Y")
-_FILE1="wp_db_backup_$_NOW.sql"
+_FILE1="wp_db_$_NOW.sql"
 _FILE2="wp_site_$_NOW.tgz"
 
 # Get WordPress data With the wp-cli client.
